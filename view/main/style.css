@@ -1,0 +1,96 @@
+body{
+    margin: o;
+}
+
+a{  /*태그의 기본 텍스트 꾸밈을 제거 */
+    text-decoration: none;
+    color:black;
+}
+
+#container{
+    margin : 0 auto; /*가운데 정렬을 위한 */
+    min-width: 460px;
+    max-width: 768px;
+}
+
+#logo-container{
+    padding-top : 60px;
+    padding-bottom: 60px;
+}
+
+
+/*  # : id의 이름을 지정 */
+#logo{
+    margin: 0 auto;  /*가운데 정렬을 해준다 마진을 전부 없애고 */
+    display: block;
+    width: 240px;
+    height: 44px;
+    background-image: url(https://static.nid.naver.com/images/ui/join/m_naver_logo_20191126.png);
+    /*배경이미지를 반복해서 보여줄 것인지 지정*/
+    background-repeat: no-repeat;
+    background-size: 240px;
+    background-position: 0 0;
+    font-size : 0;
+}
+
+.inline{
+    display: inline;
+}
+
+.flex{
+    display : flex;
+    justify-content: ;
+}
+
+.flex-1{
+    
+}
+
+.content{
+    width:460px;
+    margin: 0 auto;
+    
+}
+
+
+/*  . : class의 이름을 지정   */
+.input-style{ 
+
+    width: 430px; 
+    height: 29px; 
+    padding-left: 14px;  
+    padding-right: 14px; 
+    padding-top: 10px;   
+    padding-bottom: 10px;   
+    border: 2px solid black ; 
+}
+
+.input-middle-style{
+    display : block;
+    padding-left: 14px;  
+    padding-right: 14px; 
+    padding-top: 10px;   
+    padding-bottom: 10px;   
+    border: 2px solid black ; 
+}
+
+.input-label{
+    background-color: white;
+    /*글자의 크기 */
+    font-size: 14px;
+    /*글자의 굵기*/
+    font-weight: 700;
+
+}
+
+.join-button{
+    margin-top: 30px;
+    background-color: #03c75a;
+    border: none;
+    width: 100%;
+    padding-top:15px;
+    padding-bottom: 15px;
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+}
